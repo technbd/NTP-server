@@ -80,6 +80,8 @@ vim /etc/chrony.conf
 #server time3.google.com iburst
 #server time4.google.com iburst
 
+pool 2.rocky.pool.ntp.org iburst
+
 server 192.168.10.190
 
 # Allow NTP client access from local network.
